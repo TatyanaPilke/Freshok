@@ -1,0 +1,22 @@
+$white: #ffffff;
+$black: #000000;
+$primary-color: #505050;
+$secondary-color: #121212;
+$bg-dark: #31352B;
+$bg-section: #F6F6F6;
+$bg-secondary: #63A60F;
+$badge-percent: #CF3E3B;
+$badge-percent-hit: #FF7A00;
+$border-radius: 6px;
+$line-height-base: 1.4;
+
+$font-family-primary: 'Open Sans', sans-serif;
+$font-family-secondary: 'Ruda', sans-serif;
+
+@mixin line-clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
